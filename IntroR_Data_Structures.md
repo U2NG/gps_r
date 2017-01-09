@@ -68,7 +68,7 @@ cats
 
 * There is also the general read.table function that is used if the columns in your data are delimited by a character other that commas or tabs. 
 
-With data loaded, we can now explore our data set, pull out columns and specify the musing the $ operator:
+With data loaded, we can now explore our data set, pull out columns and specify the musing the **$ operator**:
 
 
 ```R
@@ -228,6 +228,7 @@ For the next example:
 * in file browser view feline-data.csv text file
 * in menu select text file
 * copy and paste data from feline-data.csv to new file
+* add the new data: **tabby,2.3 or 2.4,1**
 * save new file as feline-data_v2.csv
 
 Load the new cats data like before, and check what type of data we find in the weight column:
@@ -417,11 +418,6 @@ Now Consider these examples:
 
 
 ```R
-
-```
-
-
-```R
 coercion_vector <- c('a', TRUE)
 coercion_vector
 
@@ -514,11 +510,6 @@ numeric_coerced_to_logical
 * We should use the logical datatype here, which has two states: TRUE or FALSE, which is exactly what our data represents. 
 
 * We can ‘coerce’ this column to be logical by using the **as.logical** function:
-
-
-```R
-
-```
 
 
 ```R
@@ -1270,23 +1261,13 @@ ncol(matrix_example)
 6
 
 
-# Challenge 4
-http://swcarpentry.github.io/r-novice-gapminder/04-data-structures-part1#challenge-4
+# Challenge 6
+http://swcarpentry.github.io/r-novice-gapminder/04-data-structures-part1#challenge-6
 
 
 
-# Challenge 5
-http://swcarpentry.github.io/r-novice-gapminder/04-data-structures-part1#challenge-5
-
-
-```R
-
-```
-
-
-```R
-
-```
+# Challenge 7
+http://swcarpentry.github.io/r-novice-gapminder/04-data-structures-part1#challenge-7
 
 
 ```R
@@ -1294,168 +1275,3 @@ http://swcarpentry.github.io/r-novice-gapminder/04-data-structures-part1#challen
 ```
 
 # Next Lesson is Data Frames
-
-
-```R
-
-```
-
-
-```R
-
-```
-
-
-```R
-
-```
-
-
-```R
-
-```
-
-
-```R
-
-```
-
-
-```R
-
-```
-
-
-```R
-
-```
-
-
-```R
-
-```
-
-
-```R
-
-```
-
-
-```R
-
-```
-
-
-```R
-
-```
-
-
-```R
-
-```
-
-
-```R
-
-```
-
-
-```R
-
-```
-
-
-```R
-
-```
-
-
-```R
-
-```
-
-
-```R
-
-```
-
-
-```R
-
-```
-
-
-```R
-
-```
-
-
-```R
-
-```
-
-
-```R
-
-```
-
-
-```R
-
-```
-
-
-```R
-
-```
-
-
-```R
-
-```
-
-
-```R
-
-```
-
-
-```R
-
-```
-
-
-```R
-
-```
-
-
-```R
-
-```
-
-
-```R
-
-```
-
-
-```R
-
-```
-
-
-```R
-
-```
-
-
-```R
-
-```
-
-
-```R
-
-```
